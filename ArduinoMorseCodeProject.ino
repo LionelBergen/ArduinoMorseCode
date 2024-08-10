@@ -7,12 +7,12 @@ const int DELAY = 10;
 // Duration is greatly increased because of the delay
 const int TIME_UNIT = 100;
 
-// DOT is one unit, a space is 3 units
+// DOT is one unit, a space between words is 7 units
 const struct {
   const int MS_DOT;
   const int END_OF_MESSAGE;
   const int END_OF_CHARACTER;
-} TIMER = { TIME_UNIT, 5000, (TIME_UNIT * 3) };
+} TIMER = { TIME_UNIT, 5000, (TIME_UNIT * 7) };
 
 const struct {
   const char DAH;
